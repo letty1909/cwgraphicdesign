@@ -1,0 +1,1956 @@
+/* 
+Author:Colette Wilson Copyright 2021/
+
+/* Main colours peach #f37650 blue #2babe3, pink #c7a5a2, buff colour #fffcf3 */
+/* gradient background: linear-gradient(130deg, rgba(43,171,227,1) 4%, rgba(0,91,151,1) 72%);*/
+
+
+
+h1,
+h2 {
+    font-family: "Quattrocentor", serif;
+}
+
+h3 {
+    font-family: "Proxima Nova", sans-serif;
+}
+
+h4 {
+    font-family: "Baskerville", serif;
+}
+
+body,
+html {
+    font-family: "Baskerville", serif;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    font-size: 24px;
+    font-family: Proxima Nova, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+/* -----------HOME---------Header container */
+
+
+
+
+
+
+
+
+
+
+.home_header{
+    background: url('../home/waveybanner2.png');
+    background-size: cover;
+    background-position: center center;
+    height: 651px;
+    position: relative;
+    display: block;
+    z-index: -1;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 299px) and (max-width: 960px) {
+    .home_header {
+        height: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 299px) and (max-width: 960px) {
+    header {
+        height: 100%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 956px) and (max-width: 962px) {
+    h2 {
+        margin-top: 50px;
+    }
+}
+
+.header-content {
+    z-index: 1;
+    position: relative;
+    margin: 0px 30px 0px;
+}
+
+.header-content h1 {
+    text-align: left !important;
+}
+
+.header-content h4 {
+    text-align: left;
+}
+
+header img {
+    margin-left: -20px;
+}
+
+header h2 {
+    margin-top: 100px;
+}
+
+/* ------------HOME--------WELCOME container*/
+.welcome_container h1 {
+    padding-bottom: 50px;
+    line-height: 5px;
+
+}
+
+.welcome_container {
+    margin: auto;
+}
+
+.welcome_container {
+    margin-top: 20px;
+    margin-bottom: 130px;
+    width: 70%;
+}
+
+/* ----------------------HOME horizontal rule*/
+
+
+
+/* -------------------------TRIANGLE GRAPHICS*/
+.triangle_container {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.triangle_container {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 120px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 884px) {
+    #triangle {
+        display: block;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ------------------HEADER---------Slide text*/
+.slide-text {
+    -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.190, 1.000, 0.220, 1.000) 200ms both;
+    animation: fadeInLeftBig 700ms cubic-bezier(0.190, 1.000, 0.220, 1.000) 200ms both;
+}
+
+/* ---------------------------HOME bespoke packages*/
+.bespoke_container h1 {
+    padding-bottom: 100px;
+    line-height: 5px;
+
+}
+
+.bespoke_container {
+    margin: auto;
+}
+
+.bespoke_container p {
+    text-align: left;
+}
+
+.bespoke_container {
+    margin-top: 40px;
+    margin-bottom: 130px;
+    width: 90%;
+}
+
+.bespoke_container h3 {
+    margin-top: 20px;
+}
+
+/* ------------------HOME DESIGN SERVICES IMAGE AND STYLE*/
+.design_services {
+    display: block;
+    background-image: url('../home/watercolour.jpg');
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    z-index: -2;
+    position: relative;
+}
+
+.design_services h1 {
+    padding-bottom: 0px;
+    line-height: 5px;
+}
+
+
+.design_services img {
+    box-shadow: 10px 10px 15px 0px rgba(50, 50, 50, 0.4);
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: all .5s ease-in;
+    border: 2px solid;
+    border-color: #ffffff;
+    width: 90%;
+}
+
+.design_services h3 {
+    margin-top: 90px;
+}
+
+.design_services .button1 {
+    padding-bottom: 20px;
+}
+
+.design_services {
+    margin-top: -265px;
+    margin-bottom: 100px;
+}
+
+.design_services {
+    padding-bottom: 60px;
+}
+
+.design_services p {
+    text-align: left;
+}
+
+.container-fluid h2 {
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.container-fluid {
+    width: 90%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .design_services .button1 {
+        margin-bottom: 120px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .design_services img {
+        margin-top: 36px;
+    }
+}
+
+
+/* --------HOME----BESPOKE BRAND PACKAGES ICON STYLES*/
+#startingup, #steppingup, #steppingin  {
+    margin-bottom: 40px;
+    width: 150px;
+}
+
+
+/* responsive css for BESPOKE BRAND PACKAGES ICON STYLES*/
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    #steppingup {
+        margin-top: 30px;
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    #steppingin {
+        margin-top: 30px;
+        width: 150px;
+    }
+}
+
+
+@media only screen and (min-width: 964px) and (max-width: 1400px) {
+    .col-md-4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #colimage {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1336px) {
+    .col-md-4 {
+        align-content: center;
+    }
+}
+
+.chooseme_container2 img {
+    margin-bottom: 40px;
+}
+
+
+
+/* ------------------HOME----STAND OUT FROM CROWD*/
+
+.crowd {
+    display: block;
+    background-image: url('../home/blueorgange.png');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    z-index: -2;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    ;
+}
+
+.crowd p {
+    color: white;
+    text-align: left;
+    font-size: 27px;
+}
+
+.crowd {
+    width: 70%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crowd {
+    margin-bottom: 100px;
+}
+
+.crowd h3 {
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.crowd h2 {
+    font-size: 48px;
+}
+
+.crowd h2 {
+    text-align: left;
+    padding-top: 40px;
+
+}
+
+/* ----------HOME---PINK PANEL*/
+
+.homepinkblock {
+    background-color: #c7a5a2;
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    margin: auto;
+}
+
+.homepinkblock {
+    margin-bottom: 200px;
+    padding-bottom: 60px;
+    z-index: 2;
+}
+
+.homepinkblock p {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.homepinkblock h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* ----------HOME-----WHY CHOOSE ME CONTAINER*/
+
+.choose_container h1 {
+    padding-bottom: 50px;
+    line-height: 5px;
+}
+
+.choose_container {
+    margin: auto;
+}
+
+.choose_container {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    width: 70%;
+}
+
+/* ----------HOME-----PINK PANEL BOTTOM OF PAGE*/
+.homepinkblock2 {
+    z-index: 2;
+    background-color: #c7a5a2;
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    margin: auto;
+}
+
+.homepinkblock2 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    z-index: 2;
+}
+
+
+.homepinkblock2 h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.pinkbutton {
+    margin-top: -140px;
+    margin-bottom: 100px;
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+.pinkbutton {
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+
+/* ----------HOME BOTTOM NAV---------Navigation bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    display: block;
+    line-height: 1.3;
+    color: black;
+}
+
+nav ul li {
+    border-bottom: 1.8px dotted #f37650;
+}
+
+nav div:first-child {
+    line-height: 0;
+    padding: 0.8rem 0rem;
+    text-align: center;
+}
+
+nav div:first-child h1,
+nav ul {
+    margin: 0;
+}
+
+
+/*----------------------- NAV style for larger devices*/
+@media only screen and (min-width: 25em) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    nav div:first-child h1 {
+        margin: 0 1rem;
+    }
+
+    nav ul li {
+        border-bottom: none;
+        flex: 1 0 auto;
+    }
+
+    nav ul li a::before,
+    nav ul li a::after {
+        content: "";
+        bottom: 0;
+        right: 0;
+        width: 0%;
+        height: 2px;
+        background: #f37650;
+        transition: .2s width ease-in-out;
+    }
+
+    nav ul li a::before {
+        left: 0;
+    }
+
+    nav ul li a:hover::after,
+    nav ul li a:hover::before {
+        width: 50%;
+    }
+}
+
+/* --------------------BUTTON1 & BUTTON2 STYLES-----------------------*/
+
+.btn {
+    text-transform: uppercase;
+    background-color: #2babe3;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 40px;
+    border: 2px solid #2babe3;
+    width: 280px;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.btn:hover {
+    background-color: #005b97;
+    color: white;
+    text-decoration: none;
+}
+
+.btn2 {
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 40px;
+    border: 2px solid white;
+    width: 280px;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.btn2:hover {
+    background-color: #005b97;
+    color: white;
+    text-decoration: none;
+}
+
+.button1 {
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+#bespoke–button {
+    margin-bottom: 110px;
+
+}
+
+
+/* -------------------------HOME pink block-----------------------*/
+
+
+.homepinkblock {
+    z-index: 2;
+    background-color: #c7a5a2;
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    margin: auto;
+}
+
+.homepinkblock {
+    margin-top: 170px;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+    z-index: 2;
+}
+
+
+.homepinkblock h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    margin: 0;
+}
+/* ------------SERVICES PAGE -container-------------*/
+
+.services {
+    background: url('../services/servicesbanner.png');
+    background-size: cover;
+    background-position: center center;
+    height: 651px;
+    position: relative;
+    display: block;
+    z-index: -1;
+    margin-top: 0px;
+}
+/* ------------SERVICES PAGE HEADLINE-------------*/
+
+.services-container h2 {
+    color: white;
+    font-size: 32px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    width:100%;
+}
+
+.services-container {
+    display: block;
+    padding-top: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* ------------SERVICES PINK BLOCK-------------*/
+.services_pinkblock{
+    z-index: 2;
+    background-color: #c7a5a2;
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    margin: auto;
+    margin-bottom: 200px;
+    display: block;
+}
+
+.pink_header h2 {
+    color: white;
+    font-size: 32px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+/* ------------SERVICES CARD PANELS-------------*/
+.card-panel h3{
+    font-size: 30px;
+}
+
+.panels {
+    display: flex;
+    grid-auto-rows: auto;
+    grid-gap: 5rem;
+    width: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+     }
+     
+    .card-panel {
+    display: flex;
+    border: 1px solid #005b97;
+    border-radius: 6px;
+
+    }
+    
+    .panels {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* see notes below */
+        grid-auto-rows: minmax(200px, auto);
+        grid-gap: 2.5rem;
+          margin-bottom: 100px;
+          justify-content: space-evenly;
+          align-items: center;
+      }
+     .panels{
+        width: 76%;
+        margin:  auto;
+     }
+
+    .read-card{
+        margin-top: 100px;
+    }
+    
+    .card-panel {
+      /*height: 200px;*/
+      /*background: red;*/
+      border: 2px solid #44b1df;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 10px 10px 15px 0px rgba(20, 20, 20, 0.3);
+      display: flex;
+      /* -webkit-box-orient: vertical; */
+      /* -webkit-box-direction: normal; */
+      -ms-flex-direction: column;
+      flex-direction: column;
+      position: relative;
+      background-color:  #f1f5f7;
+    }
+    
+    .price h2{
+        font-size: 90px;
+        color:#f37650;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    }
+    .card-footer {
+       background-color: #1f9cd2;
+        color: black;
+    }
+    .card-footer h5{
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color:#ffffff;
+        letter-spacing: 2px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .card-content1, .card-content2, .card-content3{
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 500;
+        color:#ffffff;
+        padding: 16px;
+        font-style: normal;  
+    }
+
+    .card-content1{
+        background-color: #4ea9d0;   
+    }
+
+    .card-content2{
+        background-color: #1982ae;
+        padding: 20px;
+        color:#ffffff;
+    }
+
+
+    .card-content3{
+        background-color: #005b97;
+        padding: 20px;
+        color:#ffffff;
+    }
+  
+.card-text2{
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.service_triangle .button1{
+    margin: 60px 1000px;  
+}
+
+.read-card {
+    margin-bottom: 100px;
+}
+
+
+
+/* -------------------LOGO SHOP BLUE PANEL XREF--------------- */
+
+.logo_shop{
+    display: block;
+    background-color: #cddfe6;
+    padding-top: 30px;
+    width:80%;  
+    padding-left: 30px;
+}
+
+.logo_shop{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.logo_shop{
+    margin-bottom: 200px;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 0px rgba(82, 72, 72, 0.4);
+
+}
+.logo_shop h2 {
+    color:#005b97;
+    font-size: 30px;
+    padding-top: 60px;
+    width:auto;
+}
+
+.logo_shop img {
+    width: 100%;
+    width: 85%;
+}
+
+.logo_shop img {
+    width: auto;
+    padding-right: 20px;
+}
+#icon{
+    width:120px;
+    margin-bottom: 0;
+}
+
+/* -------------SERVICES SLIDESHOW PAGE ------------ */
+
+.carousel{
+    width: 100%;
+    margin-top: 0;
+}
+
+
+.carousel{
+    width:100%;
+    justify-content: center;
+    background: #005b97;
+    padding: 20px;
+}
+.carousel_slide{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.carousel-item .active{
+    transition: transform 3s;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    .carousel {
+        padding: 0;
+    }
+}
+
+
+@media only screen and (min-width: 730px) and (max-width: 1400px) {
+    .carousel{
+        padding: 10px;
+    }
+}
+
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../services/leftarrow.svg');
+    left: -40px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('/services/rightarrow.svg');
+    left:-60px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .5s ease-in;
+    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out,-webkit-transform 2s ease-in-out;
+}
+
+
+/* ------------------------STUDIO PAGE HEADER */
+.studio {
+    background: url('../studio/studiobanner.png');
+    background-size: cover;
+    background-position: center center;
+    height: 651px;
+    position: relative;
+    display: block;
+    z-index: -1;
+    margin-top: 0px;
+}
+
+section {
+    width: 90%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+section h2 {
+    margin-bottom: 0;
+}
+
+.mystory_container h2 {
+    padding-top: 0px;
+}
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+    header {
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 299px) and (max-width: 768px) {
+    .header-content img {
+        height: 100%;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+}
+
+
+/* ---------------------------MY STORY CONTAINER*/
+.mystory_container p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.mystory_container h2 {
+    margin-bottom: 0;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 730px) {
+    .mystory_container {
+        margin-top: 500px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .mystory_container {
+        margin-top: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .mystory_container {
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+.studio_triangle {
+    margin-top: 130px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+
+/* Create four equal columns */
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media only screen and (min-width: 1026px) and (max-width: 1920px) {
+    .column {
+        flex: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 768px) {
+    .column {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mystory-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .img-fluid img {
+
+        margin: auto;
+    }
+}
+
+.mystory_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    flex-grow: 1;
+}
+
+/* ------------STUDIO--DID YOU KNOW container*/
+.didyou_know {
+    display: block;
+    background-image: url('../home/watercolour.jpg');
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    position: relative;
+}
+
+.design_services h1 {
+    padding-bottom: 10px;
+    line-height: 5px;
+}
+
+
+/* ---------STUDIO------DID YOU KNOW*/
+
+.didyou_know p {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.didyou_know h2 {
+    margin-bottom: 0px;
+    padding-top: 200px;
+}
+
+.didyou_know {
+    margin-top: -270px;
+    margin-bottom: 160px;
+}
+
+.didyou_know {
+    padding-bottom: 300px;
+}
+
+.youbutton {
+    margin-top: -430px;
+}
+
+.process_container {
+    width: 80%;
+    text-align: center;
+}
+
+/* ------------------STUDIO PINK PANEL CORE VALUES*/
+
+.progress_container {
+    width: 80%;
+}
+
+.homepinkblock {
+    z-index: 2;
+    background-color: #c7a5a2;
+    border-radius: 20px;
+    width: 90%;
+    color: white;
+    margin: auto;
+}
+
+.homepinkblock {
+    margin-top: 170px;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+    z-index: 2;
+}
+
+.homepinkblock h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+/* ------------------STUDIO THE PROCESS--------------- */
+
+.process_container h1 {
+    padding-bottom: 50px;
+    line-height: 5px;
+}
+
+.process_container h2 {
+    margin-bottom: 50px;
+}
+
+.process_container {
+    margin: auto;
+}
+
+.process_container {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 90%;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.list-icons li {
+    padding: 0 0 15px 0;
+}
+
+blockquote {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ------------------STUDIO TESTIMONIALS--------------- */
+
+.list-icons {
+    padding: 0;
+    margin: 20px 0;
+    list-style: none;
+    font-size: 30px;
+}
+
+.list-icons li {
+    padding: 0 0 15px 0;
+}
+
+blockquote {
+    border-left: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Backgrounds
+----------------------------------------------------------------------------- */
+
+.translucent-bg {
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+.translucent-bg p {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.translucent-bg h3,
+.translucent-bg h4,
+.translucent-bg h5 {
+    color: #000000;
+}
+
+#clients {
+    color: #000000;
+    margin-top: 180px;
+    padding-top: 200px;
+}
+
+.translucent-bg h3 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+.default-bg blockquote .name,
+.translucent-bg blockquote .name {
+    color: #000000;
+}
+
+.default-bg a,
+.translucent-bg a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.media-body p {
+    text-align: left;
+}
+
+.default-bg a:hover,
+.translucent-bg a:hover {
+    text-decoration: none;
+}
+
+.translucent-bg {
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: relative;
+}
+
+.translucent-bg {
+    margin-top: 80px;
+    z-index: 3;
+}
+
+.translucent-bg:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    background: rgba(252, 252, 252, 0.8);
+    border-style: double;
+    border-color: #bf9a97;
+}
+
+.translucent-bg .container {
+    z-index: 3;
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.bg-image-2 {
+    background: url("../studio/bg-image-2.jpg") 30% 0px no-repeat;
+}
+
+/* Misc
+----------------------------------------------------------------------------- */
+
+.object-visible,
+.touch .object-non-visible {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+/* Targeting only Firefox for smoothest animations */
+@-moz-document url-prefix() {
+
+    .object-visible,
+    .touch .object-non-visible {
+        -webkit-transition: opacity 0.6s ease-in-out;
+        -moz-transition: opacity 0.6s ease-in-out;
+        -o-transition: opacity 0.6s ease-in-out;
+        -ms-transition: opacity 0.6s ease-in-out;
+        transition: opacity 0.6s ease-in-out;
+    }
+}
+
+.space {
+    padding: 20px 0;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.pb-clear {
+    padding-bottom: 0;
+}
+
+/* Media
+---------------------------------- */
+.media .fa {
+    font-size: 24px;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+
+/* Testimonials
+---------------------------------- */
+.testimonial .media-left {
+    width: 60px;
+}
+
+
+/* ------------------LOGO SHOP FLIP CARDS--------------- */
+
+
+#team .grid{
+width: 100%;
+max-width:1240px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: auto;
+grid-gap: 30px;
+justify-items: center;
+align-items: center;
+}
+
+
+@media only screen and (min-width: 320px) {
+    #team .grid {
+      grid-template-columns: 1fr;
+    }  
+  }
+
+
+@media only screen and (min-width: 500px) {
+    #team .grid {
+      grid-template-columns: 1fr 1fr;
+    }  
+  }
+
+  @media only screen and (min-width: 850px) {
+    #team .grid {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  @media only screen and (min-width: 1026px) {
+    #team .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .flip-card img{
+      width:100%;
+  }
+
+  .flip-card {
+    border-style: hidden;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1240px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .flip-card-back p{
+      font-size: 24px; 
+      color: #ffffff;
+      line-height: 28px;
+      padding-left: 15px;
+      padding-right:  15px;
+  }
+
+  .flip-card-back h3{
+    font-size: 28px;
+    margin-top: 0px;
+    color:rgb(242, 225, 204);
+    padding-left: 15px;
+      padding-right:  15px;
+}
+
+
+  .flip-card-back {
+    background: linear-gradient(-45deg, #3ab5ea, #035790);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  .logo_description{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_description h4{
+    margin-top: 60px;
+}
+
+.flip-card{
+    margin-top: 30px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+
+/* -------------------LOGO PAGE DETAILS--------------- */
+
+.logo–details{
+    margin-top: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.logo–details h2{
+    margin-top: 30px;
+}
+
+
+/* -------------------CONTACT PAGE STYLES--------------- */
+
+
+
+
+
+
+.image_background {
+    background: url('../contact/contactback.jpg');
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+    z-index: -9999;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.contact_bespoke {
+    background: rgba(252, 252, 252, 0.7);
+    z-index: -4;
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.contact_bespoke h2 {
+    padding-top: 50px;
+    color: #005b97;
+    font-size: 45px;
+}
+
+.contact_bespoke p {
+    padding-bottom: 30px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+}
+
+/* -------------------CONTACT PAGE STYLES--------------- */
+/* -------------------FORM STYLES--------------- */
+
+
+.form_container {
+    margin-bottom: 50px !important;
+}
+
+.form_container .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #005b97;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form_container .icon {
+    font-size: 24px;
+    color: #fff;
+}
+
+.text h3 {
+    font-size: 18px;
+}
+
+.form-section img {
+    height: 80%;
+}
+
+/* ------CONTACT FORM AD IFRAME STYLS---- */
+
+.contact-container {
+    background-color: #bf9a97;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    position: relative;
+    display: block;
+    z-index: -1;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.contact-container h4 {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.contact-container h1 {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 299px) and (max-width: 960px) {
+    .contact-container {
+        height: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 956px) and (max-width: 962px) {
+    .contact-content h2 {
+        margin-top: 200px;
+    }
+}
+
+.contact-content {
+    z-index: 1;
+    position: relative;
+    margin: 0px 30px 0px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.form_container a {
+    color: black;
+}
+
+
+
+/* ------CONTACT IFRAME STYLS---- */
+.contact-box-map {
+    overflow: hidden;
+    padding-bottom: 45%;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.contact-box-map {
+    margin-top: -200px;
+
+}
+
+.map-anchor {
+    border-radius: 20px;
+}
+
+.checkbox {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.contact-box-map iframe {
+    max-width: 60rem;
+    max-height: 55rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+    z-index: 10;
+}
+
+#form-anchor {
+    margin-bottom: 240px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e1613a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 40px;
+    resize: vertical;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+}
+
+input[type=submit] {
+    text-transform: uppercase;
+    background-color: #2babe3;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 40px;
+    border: 2px solid #2babe3;
+    width: 200px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+input[type=submit]:hover {
+    background-color: #005b97;
+    color: white;
+    text-decoration: none;
+}
+
+
+.formcontainer {
+    background: rgba(244, 233, 231, 0.8);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 0px rgba(205, 163, 163, 0.4);
+}
+
+
+
+/* responsive css for screen sizes */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .formcontainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .formcontainer {
+        width: 90%;
+    }
+
+    .footer-top {
+        padding: 20px 0;
+    }
+}
+
+
+.formcontainer {
+    text-align: center;
+}
+
+.navbar-brand {
+    margin-bottom: 50px;
+}
+
+
+.contact-box-map iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid;
+    border-color: #ffffff;
+}
+
+
+#cwlogo {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-tel-box {
+    text-align: left;
+    font-size: 25px;
+    font-style: normal;
+    font-family: "Quattrocento", serif;
+    letter-spacing: 2px;
+}
+
+
+
+/* ---------------------------------Footer section----------------------*/
+/* Footer image background*/
+footer {
+    background-image: url('../home/footerwater2.png');
+    line-height: 1.3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: left;
+    z-index: 10;
+}
+
+.footer-top {
+    padding: 60px 0;
+}
+
+/* Targeting all the headlines on the footer section h3*/
+footer h3 {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005b97;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+/* Footer address and telephone*/
+.segment-one {
+    line-height: 1.4;
+}
+
+.tel a {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 3px;
+    text-align: left;
+}
+
+.tel a:hover {
+    color: #005b97;
+}
+
+.segment-two h3:before {
+    content: '|';
+    color: #005b97;
+    padding-right: 10px;
+}
+
+.segment-two ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.segment-two ul li {
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.segment-two ul li a {
+    border-bottom: 1px solid;
+    color: black;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.segment-two a:hover {
+    text-decoration: none;
+    color: #005b97;
+}
+
+.segment-three a {
+    background: #005b97;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i {
+    font-size: 20pt;
+    color: white;
+    padding: 8px 9px;
+}
+
+.segment-four h3:before {
+    content: '|';
+    color: #005b97;
+    padding-right: 20px;
+}
+
+.segment-four form input[type=submit] {
+    background: #005b97;
+    border: none;
+    padding: 6px 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* FOOTER terms and conditions*/
+.ft-legal {
+    text-align: center;
+}
+
+.ft-legal-list {
+    color: black;
+    list-style: none;
+    text-align: center;
+    font-family: "Baskerville", serif;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.ft-legal-list li a {
+    color: black;
+}
+
+/* responsive css for screen sizes */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sm-mb-30 {
+        margin-top: 30px;
+    }
+
+    .footer-top {
+        padding: 20px 0;
+    }
+}
+
+
+/* Main Styles */
+h1 {
+    text-align: center;
+    font-size: 44px;
+    font-family: "Quattrocento", serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 6px;
+    line-height: 1.2;
+}
+
+h2 {
+    text-align: center;
+    font-size: 44px;
+    font-family: "Quattrocento", serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #f37650;
+    padding: 10px;
+    letter-spacing: 6px;
+    line-height: 1.4;
+    margin-bottom: 60px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Baskerville", serif;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Quattrocento", serif;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 6px;
+    line-height: 1.2;
+}
+
+body {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: "Baskerville", serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+
